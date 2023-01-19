@@ -9,7 +9,7 @@ function GameOver() {
       <h3>
         {gameOver.guessedWord
           ? "Super du hast das Word erraten, wie toll!"
-          : "Haha, du hast verloren"}
+          : "Haha, du hast verloren 🥸"}
       </h3>
       <h1>Richtig: {correctWord}</h1>
       {gameOver.guessedWord && (
